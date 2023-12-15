@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('./images/Programação-\ Anotações\ \(1\)\ 1.png');
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    background-image: url(./images/Programação-\ Anotações\ \(2\)\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px;
+    margin: 50px auto;
+    height: 150px;
+    text-align: center;
+}
+
+header h1 {
+    color: rgba(0, 0, 0, 0.83);
+    font-family: Atma;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5ex;
+    padding-top: 40px;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+form input, form button {
+    padding: 10px;
+    font-size: 30px;
+}
+
+form button {
+    font-weight: bold;
+}
+
+ul {
+    text-align: center;
+    width: 600px;
+    margin: 50px auto;
+}
+
+li {
+    font-family: 'Atma', sans-serif;
+    list-style: inside;
+    font-size: 30px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.selected {
+    text-decoration: line-through;
+}
